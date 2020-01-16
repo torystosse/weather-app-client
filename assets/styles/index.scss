@@ -1,1 +1,43 @@
 @import '~bootstrap/scss/bootstrap';
+
+
+* {
+  font-family: 'Roboto Slab', serif;
+}
+
+form {
+  display: inline;
+}
+
+h5 {
+  font-style: italic;
+}
+
+input {
+  background-color: none;
+  border-bottom: 1px #ff6666 solid;
+}
+
+p {
+  color: #ff6666;
+}
+
+.btn {
+  background-color: #ff6666;
+  color: white;
+}
+
+.container-fluid {
+  border: 8px #e67300 solid;
+  display: flex;
+  flex-direction: row;
+}
+
+.heading-section {
+  align-items: stretch;
+}
+
+.info-section {
+  align-items: stretch;
+  background-color: #404040;
+}

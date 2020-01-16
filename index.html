@@ -1,17 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>Example</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <!-- Do not add `link` tags-->
-      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<head>
+  <title>Weather Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <!-- Do not add `script` tags-->
-      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
-      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
-    </head>
-    <body>
-      <h1>Browser Template</h1>
-    </body>
+  <!-- Do not add `link` tags-->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+
+  <!-- Do not add `script` tags-->
+  <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+  <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-5">
+        <header class="heading-section">
+          <h1>Weather Finder</h1>
+          <h5>Find out the temperature, weahter conditions and more...</h5>
+        </header>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-7">
+        <main class="info-section">
+          <form>
+            <input type="text"></input>
+            <input type="text"></input>
+          <button class="btn btn-*">Get Weather</button>
+        </form>
+          <p>Location:</p>
+          <p>Temperature:</p>
+          <p>Humidity:</p>
+          <p>Conditions:</p>
+        </main>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
